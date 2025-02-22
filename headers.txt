@@ -1,0 +1,39 @@
+Request Headers:
+
+User-Agent: PostmanRuntime/7.43.0 → Identifies the client making the request (Postman in this case)
+
+Accept: / → Specifies that the client accepts any media type in response
+
+Postman-Token: e86df06c-e962-4254-8055-fcfbeeacd657 → A unique identifier for the request, primarily used for debugging
+
+Host: www.googleapis.com → Specifies the server host to which the request is being sent
+
+Accept-Encoding: gzip, deflate, br → Informs the server that the client supports compressed responses using gzip, deflate, or Brotli (br)
+
+Connection: keep-alive → Instructs the server to keep the connection open for multiple requests, improving efficiency
+
+Response Headers:
+
+Content-Type: application/json; charset=UTF-8 → Specifies that the response is in JSON format with UTF-8 character encoding
+
+Vary: Origin → Indicates that the response may vary based on the Origin request header
+
+Vary: X-Origin → Response varies depending on the X-Origin header value
+
+Vary: Referer → Response can change based on the Referer header of the request
+
+Content-Encoding: gzip → Indicates that the response is compressed using gzip
+
+Date: Sat, 22 Feb 2025 05:38:05 GMT → Timestamp indicating when the response was generated
+
+Server: ESF → Identifies the server handling the request (Google's Edge Server Frontend)
+
+X-XSS-Protection: 0 → Disables Cross-Site Scripting (XSS) protection in modern browsers
+
+X-Frame-Options: SAMEORIGIN → Prevents the response from being embedded in an iframe on a different domain
+
+X-Content-Type-Options: nosniff → Prevents browsers from interpreting files as a different MIME type than specified
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 → Indicates alternative services (HTTP/3) available for connections
+
+Transfer-Encoding: chunked → Specifies that the response is sent in chunks instead of a single block
